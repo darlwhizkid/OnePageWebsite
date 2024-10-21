@@ -1,0 +1,501 @@
+/* for the whole body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/* for the header */
+header {
+    padding: 20px 0;
+}
+.header-background {
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    position: relative;
+}
+.header-bottom-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+#headerBottomShape {
+    display: block;
+    width: 100%;
+    margin-bottom: -1px;
+}
+
+#countdown {
+    position: relative;
+    margin-top: -1px;
+    padding-top: 1px;
+}
+
+#navbar {
+    
+}
+#navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    margin-right: 1rem;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    background-color: #fe0303;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+#intro {
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+}
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+    line-height: 1.2;
+}
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('../fonts/PermanentMarker-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#intro h5 {
+    font-family: 'Permanent Marker', cursive;
+    color: gold;
+    margin-bottom: -20px;
+}
+/* For the Main body */
+
+main {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* For the countdown */
+#countdown{
+    overflow: hidden;
+}
+.container {
+    text-align: center;
+    padding: 50px 0;
+}
+.countdown-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.countdown {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.countdown div {
+    margin: 0 10px;
+}
+.countdown div p {
+    margin: 0;
+}
+.countdown div p:last-child {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 10px;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* for note */
+.red-icon {
+    color: red;
+}
+
+
+#note {
+    padding: 100px;
+    background-color: #f6f4ee;
+    margin-top: -10px;
+}
+.note-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.note-column {
+    padding: 1rem;
+    border-radius: 8px;
+}
+.note-column h1{
+    font-size: 50px;
+}
+.note-column, .no-bullet {
+    list-style-type: none;
+    padding-left: 0;
+}
+.pricing-column{
+    width: 300px;
+}
+.price-column{
+    padding-right: -20px;
+}
+.price-column ul li{
+    list-style: none;
+}
+.no-bullet{
+    margin-left: 0;
+}
+
+/* for map */
+#map {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+#map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.mapimage{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+}
+
+/* for the contact us section */
+.info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.info-details {
+    margin-bottom: 2rem;
+}
+
+.info-details h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.info-details p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0;
+    flex: 1;
+}
+
+.input-group i {
+    margin-right: 0.5rem;
+}
+
+.input-group input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+}
+
+.input-group input:focus {
+    outline: none;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.button-container {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.submit-button {
+    background-color: #dc2626;
+    color: white;
+    font-weight: bold;
+    padding:  15px 10px 15px 40px;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.contact-wrapper {
+    display: flex;
+}
+
+.info_container {
+    flex: 1;
+}
+
+form {
+    flex: 1;
+}
+
+  #contactus {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      background-color: #f6f4ee;
+  }
+
+  .info_container {
+      max-width: 1200px;
+      width: 100%;
+  }
+
+/* For footer */
+.centered-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.centered-footer hr {
+    width: 50%;
+    margin: 10px auto;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.centered-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.centered-footer div {
+    margin: 10px 0;
+}
+
+.centered-footer hr {
+    width: 70%;
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.centered-footer p {
+    margin: 0;
+    text-align: center;
+}
+.ox-blood-bg {
+    background-color: #190e08;
+    color: white;
+    height: 200px;
+}
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 10px;
+}
+.social-icon i {
+    color: white;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #800000;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+#scroll-to-top:hover {
+    background-color: #600000;
+}
+    #scroll-to-top {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s, visibility 0.3s;
+        /* Add any other styles you want for the button here */
+    }
+
+    #scroll-to-top.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    #scroll-to-top {
+        animation: bounce 2s infinite;
+        /* Keep existing styles */
+    }
+
+.input-group.full-width {
+    width: 100%;
+    max-width: none;
+}
+
+.input-group.full-width textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 100px;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.bounce-icon {
+    animation: bounce 2s infinite;
+}
+
+
+
+/* For responsiveness */
+@media screen and (max-width: 768px) {
+    #navbar nav ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .sign-up {
+        display: none;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+    }
+
+    #intro h6 {
+        display: none;
+    }
+
+    .header-bottom-shape {
+        display: none;
+    }
+
+    #call{
+        display: none;
+    }
+    #note .note-container {
+        flex-direction: column;
+    }
+
+    #note .note-column,
+    #note .pricing-column,
+    #note .price-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .info_container {
+        flex-direction: column;
+    }
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form_details {
+        width: 100%;
+    }
+
+    .inline-fields {
+        flex-direction: column;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .input-with-icon {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .name, .phone, .email, .subject {
+        width: 100%;
+    }
+
+    .textarea-wrapper {
+        width: 100%;
+    }
+}
